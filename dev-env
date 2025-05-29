@@ -7,6 +7,7 @@ if [ -z "$XDG_CONFIG_HOME" ]; then
     XDG_CONFIG_HOME=$HOME/.config
 fi
 
+# TODO: Modificar isso para que ele verifique se esta dentro de `dotfiles`
 if [ -z "$DEV_ENV" ]; then
     echo "env var DEV_ENV needs to be present"
     exit 1
